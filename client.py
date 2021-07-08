@@ -1,8 +1,8 @@
 import asyncio
 import websockets
 
-server_url = 'ws://192.168.0.111:3030'
-username = 'Emir'
+server_url = 'ws://127.0.0.1:3030'
+username = ''
 
 async def client_message():
     # Подключаемся к серверу асинхронный код
